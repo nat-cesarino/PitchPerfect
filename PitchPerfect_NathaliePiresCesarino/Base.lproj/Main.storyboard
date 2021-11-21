@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wer-nE-A0R">
-                                <rect key="frame" x="134.5" y="451.5" width="106" height="21"/>
+                                <rect key="frame" x="134.5" y="428" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sK-in-olN">
-                                <rect key="frame" x="155.5" y="526.5" width="64" height="64"/>
+                                <rect key="frame" x="155.5" y="464" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="2Y3-3S-ORW"/>
                                     <constraint firstAttribute="height" constant="64" id="fz0-co-Axy"/>
@@ -49,8 +49,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="wer-nE-A0R" firstAttribute="top" secondItem="ucX-l3-gGi" secondAttribute="bottom" constant="33.5" id="2Jn-Mh-g1C"/>
-                            <constraint firstItem="9sK-in-olN" firstAttribute="top" secondItem="wer-nE-A0R" secondAttribute="bottom" constant="54" id="7KR-2M-jet"/>
+                            <constraint firstItem="wer-nE-A0R" firstAttribute="top" secondItem="ucX-l3-gGi" secondAttribute="bottom" constant="10" id="2Jn-Mh-g1C"/>
+                            <constraint firstItem="9sK-in-olN" firstAttribute="top" secondItem="wer-nE-A0R" secondAttribute="bottom" constant="15" id="7KR-2M-jet"/>
                             <constraint firstItem="ucX-l3-gGi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="M7F-5f-Fbc"/>
                             <constraint firstItem="9sK-in-olN" firstAttribute="centerX" secondItem="wer-nE-A0R" secondAttribute="centerX" id="hCA-8d-txH"/>
                             <constraint firstItem="wer-nE-A0R" firstAttribute="centerX" secondItem="ucX-l3-gGi" secondAttribute="centerX" id="hzc-qR-uhV"/>
